@@ -4,7 +4,7 @@
 	Plugin URI: http://www.distinctivethemes.com
 	Description: Supplementary widget pack for use with Distinctive Themes items.
 	Author: Distinctive Themes
-	Version: 1.0	
+	Version: 1.0.1	
 	Author URI: http://www.distinctivethemes.com
 
     This program is free software; you can redistribute it and/or modify
