@@ -52,7 +52,7 @@ class dt_social extends WP_Widget {
 				echo '<a target="_blank" class="flickr" href="' . $flickr_l . '" rel="nofollow"><i class="fa fa-flickr"></i></a>';
 			}
 			if($lastfm_l) {
-				echo '<a target="_blank" class="lastfm" href="' . $lastfm_l . '" rel="nofollow"><i class="fa fa-lastfm"></i></a>';
+				echo '<a target="_blank" class="lastfm" href="' . $lastfm_l . '" rel="nofollow"><i class="fa fa-pinterest"></i></a>';
 			}
 			if($linkin_l) {
 				echo '<a target="_blank" class="linkedin" href="' . $linkin_l . '" rel="nofollow"><i class="fa fa-linkedin"></i></a>';
@@ -164,7 +164,7 @@ class dt_social extends WP_Widget {
 	</p>
 		
 	<p>
-		<label for="<?php echo $this->get_field_id('lastfm_l'); ?>"><?php _e('Link to Last.Fm account','distinctive_themes-widget-pack'); ?></label>
+		<label for="<?php echo $this->get_field_id('lastfm_l'); ?>"><?php _e('Link to Pinterest account','distinctive_themes-widget-pack'); ?></label>
 		<input class="widefat" id="<?php echo $this->get_field_id('lastfm_l'); ?>" name="<?php echo $this->get_field_name('lastfm_l'); ?>" type="text" value="<?php echo esc_attr($instance['lastfm_l']); ?>" />
 	</p>	
 		
